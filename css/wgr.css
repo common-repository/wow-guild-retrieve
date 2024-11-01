@@ -1,0 +1,53 @@
+/***
+ * WoW Guild Retrieve
+ * Default CSS Styling
+ */
+ 
+div#guild-data-div{font:12px Arial;font-weight:400;padding:0;}
+div#guild-data-div th{font-weight:700;text-align:left;}
+div#guild-data-div td img{border:0;}
+div#guild-data-div .clear{clear:both;}
+
+div#guild-data-div table .ginfo-race{width:50px;}
+div#guild-data-div table .ginfo-class{width:50px;}
+div#guild-data-div table .ginfo-name{text-align:left;padding-left:0.75em;}
+div#guild-data-div table .ginfo-level{width:50px;}
+div#guild-data-div table .ginfo-rank{width:100px;}
+div#guild-data-div table .ginfo-achieve{width:80px;}
+div#guild-data-div table tr:hover{background:#aaa;color:#000;}
+
+div#guild-data-div #header-block{width:100%;border-bottom:2px groove #555;padding:10px;}
+div#guild-data-div #header-block h2{border:0;color:#a99;font:36px Georgia;padding:0;margin:0;}
+div#guild-data-div #header-block h3{border:0;font:14px Arial;font-weight:700;padding:0;margin:0;}
+div#guild-data-div #header-block img{float:left;}
+div#guild-data-div #header-text{float:left;text-align:left;height:70px;margin-left:1em;}
+
+div#guild-data-div table{clear:both;margin:10px;width:100%;}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables features
+ */
+
+div#guild-data-div div{margin:0.25em;}
+ 
+.dataTables_wrapper{position:relative;min-height:302px;_height:302px;clear:both;}
+.dataTables_processing{position:absolute;top:0px;left:50%;width:250px;margin-left:-125px;border:1px solid #ddd;text-align:center;color:#999;font-size:11px;padding:2px 0;}
+.dataTables_length{width:40%;float:left;}
+.dataTables_filter{width:50%;float:right;text-align:right;}
+.dataTables_info{width:60%;float:left;}
+.dataTables_paginate{width:64px;* width:70px;float:right;text-align:right;}
+
+/* Pagination nested */
+.paginate_disabled_previous,.paginate_enabled_previous,.paginate_disabled_next,.paginate_enabled_next{height:19px;width:19px;margin-left:3px;float:left;}
+.paginate_disabled_previous{background-image:url('../images/back_disabled.jpg');}
+.paginate_enabled_previous{background-image:url('../images/back_enabled.jpg');}
+.paginate_disabled_next{background-image:url('../images/forward_disabled.jpg');}
+.paginate_enabled_next{background-image:url('../images/forward_enabled.jpg');}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables sorting
+ */
+
+.sorting_asc{background: url('../images/sort_asc.png') no-repeat center right;}
+.sorting_desc{background: url('../images/sort_desc.png') no-repeat center right;}
+.sorting{background: url('../images/sort_both.png') no-repeat center right;}

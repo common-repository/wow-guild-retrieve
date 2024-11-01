@@ -1,0 +1,5 @@
+var Keen=Keen||{configure:function(e){this._cf=e},addEvent:function(e,t,n,i){this._eq=this._eq||[],this._eq.push([e,t,n,i])},setGlobalProperties:function(e){this._gp=e},onChartsReady:function(e){this._ocrq=this._ocrq||[],this._ocrq.push(e)}};(function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src=("https:"==document.location.protocol?"https://":"http://")+"dc8na2hxrj29i.cloudfront.net/code/keen-2.1.0-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
+Keen.configure({
+    projectId: "69097E17E96BC9DB2D916228AEC86508",
+    writeKey: "4321458f71f314e859a8c17d63a28bef1dee9137984f9d6d5eb84d2110655b4f40b95d1752429b92e003e931e6276a052dda6769ecb2d0a14e8653f49fbf5852ce0fb7230a539cbd0732b1839931387b93c4b9d5f546356a9fcf2b5265c37b543d03472af58c178131e3c8a1626979fc"
+});
